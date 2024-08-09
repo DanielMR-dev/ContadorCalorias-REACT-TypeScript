@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, ChangeEvent } from "react"
 import { categories } from "../data/categories"
 
 export default function Form() {
@@ -9,7 +9,7 @@ export default function Form() {
         calories: 0
     })
 
-    const handleChange = (e) => {
+    const handleChange = (e: ChangeEvent<HTMLSelectElement> | ChangeEvent<HTMLInputElement>) => { // El handleChange puede ser utilizado en el Select o en el Input
         setActivity({
             ...activity, // Escribimos lo que hay previamente en el state
             [e.target.id] : e.target.value // Cambiamos solo por el id que se modifica
