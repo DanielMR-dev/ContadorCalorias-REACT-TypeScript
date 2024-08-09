@@ -15,7 +15,7 @@ export default function Form() {
 
         setActivity({
             ...activity, // Escribimos lo que hay previamente en el state
-            [e.target.id]: isNumberField ?  +e.target.value : e.target.value // Cambiamos solo por el id que se modifica
+            [e.target.id]: isNumberField ?  +e.target.value : e.target.value // Cambiamos solo por el id que se modifica - Se mantiene la integridad del State
         })
     }
 
