@@ -27,7 +27,7 @@ export default function Form() {
     const handleSubmit = (e : FormEvent<HTMLFormElement>) => { 
         e.preventDefault()
 
-        console.log('Submit...')
+    
     }
 
     return (

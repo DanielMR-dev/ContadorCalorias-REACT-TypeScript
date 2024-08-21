@@ -1,0 +1,80 @@
+[33mcommit e0e153872d90137273a2665c101d4c13ce6cc954[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: DanielMR-dev <80842775+DanielMR-dev@users.noreply.github.com>
+Date:   Thu Aug 15 19:36:40 2024 -0500
+
+    141. Trabajando con el evento de Submit
+
+[33mcommit f622abda4b36602fc88a1f4225bc1672b49e33dd[m
+Author: DanielMR-dev <80842775+DanielMR-dev@users.noreply.github.com>
+Date:   Fri Aug 9 19:08:20 2024 -0500
+
+    140. Mostrar de forma condicional el Texto si es
+    Ejercicio o Comida al guardar.
+
+[33mcommit b626227f80d180a1b5b7634cff6ed5b7d469f6c6[m
+Author: DanielMR-dev <80842775+DanielMR-dev@users.noreply.github.com>
+Date:   Fri Aug 9 19:06:05 2024 -0500
+
+    139. Validando el Formulario
+
+[33mcommit 1c94be91825aa612a2bf0f2833160e465f055149[m
+Author: DanielMR-dev <80842775+DanielMR-dev@users.noreply.github.com>
+Date:   Fri Aug 9 18:29:04 2024 -0500
+
+    138. Creando el Type de Actividad y seteando
+    los valores en el State
+
+[33mcommit a2584ddf7092be7051c2cea53e100073722eb084[m
+Author: DanielMR-dev <80842775+DanielMR-dev@users.noreply.github.com>
+Date:   Fri Aug 9 18:28:19 2024 -0500
+
+    138. Creando el Type de Actividad y seteando
+    los valores en el State
+
+[33mcommit 44f5905a62f27c8bfe9b0250dbb3180d0724622e[m
+Author: DanielMR-dev <80842775+DanielMR-dev@users.noreply.github.com>
+Date:   Fri Aug 9 18:02:06 2024 -0500
+
+    137. Inferir el Type de un evento
+
+[33mcommit ae7bdeb69c42f497f2c2b039278acf727fcbb826[m
+Author: DanielMR-dev <80842775+DanielMR-dev@users.noreply.github.com>
+Date:   Thu Jul 25 16:48:29 2024 -0500
+
+    136. Escribiendo en el State
+
+[33mcommit f7969b43b6522e6d129bb628206853dd2fafbf4b[m
+Author: DanielMR-dev <80842775+DanielMR-dev@users.noreply.github.com>
+Date:   Thu Jul 18 15:11:54 2024 -0500
+
+    Se eliminó el readme
+
+[33mcommit 3154de271f839c54e63df3a3ceceabab1d1c81f5[m
+Author: DanielMR-dev <80842775+DanielMR-dev@users.noreply.github.com>
+Date:   Tue Jul 16 18:28:53 2024 -0500
+
+    135. Creando el State para las Actividades
+
+[33mcommit 177977036b3ac4509a9dccf8c2761f2955ae4705[m
+Author: DanielMR-dev <80842775+DanielMR-dev@users.noreply.github.com>
+Date:   Tue Jul 16 18:13:32 2024 -0500
+
+    134. Agregando el Formulario de Entrada de datos
+
+[33mcommit a8fa5b39c6e30ad21c213157ecf17adad86391de[m
+Author: DanielMR-dev <80842775+DanielMR-dev@users.noreply.github.com>
+Date:   Tue Jul 16 17:56:04 2024 -0500
+
+    133. Creando los Contenedores Principales
+
+[33mcommit ddbb5b4c14a2bb773932aa8e8febf371b1372432[m
+Author: DanielMR-dev <80842775+DanielMR-dev@users.noreply.github.com>
+Date:   Tue Jul 16 17:50:02 2024 -0500
+
+    132. Instalando Tailwindcss
+
+[33mcommit c764290d246214032228ddeb0ade5b042bdf2e4e[m
+Author: DanielMR-dev <80842775+DanielMR-dev@users.noreply.github.com>
+Date:   Tue Jul 16 17:45:20 2024 -0500
+
+    131. Creando el proyecto
