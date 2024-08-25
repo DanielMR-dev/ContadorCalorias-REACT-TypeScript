@@ -1,4 +1,4 @@
-import { useState, ChangeEvent } from "react"
+import { useState, ChangeEvent, FormEvent } from "react"
 import { Activity } from "../types"
 import { categories } from "../data/categories"
 
@@ -12,7 +12,6 @@ export default function Form() {
 
     const handleChange = (e: ChangeEvent<HTMLSelectElement> | ChangeEvent<HTMLInputElement>) => { // El handleChange puede ser utilizado en el Select o en el Input
         const isNumberField = ['category', 'calories'].includes(e.target.id)
-
         setActivity({
             ...activity, // Escribimos lo que hay previamente en el state
             [e.target.id]: isNumberField ?  +e.target.value : e.target.value // Cambiamos solo por el id que se modifica - Se mantiene la integridad del State
@@ -24,9 +23,17 @@ export default function Form() {
         return name.trim() !== '' && calories > 0
     }
 
+    const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+        e.preventDefault() // Se previene la acción por default
+
+        console.log('Submit...')
+
+    }
+
     return (
         <form
             className="space-y-5 bg-white shadow p-10 rounded-lg"
+            onSubmit={handleSubmit}
         >
             <div className="grid grid-cols-1 gap-3">
                 <label htmlFor="category" className="font-bold">Categoría:</label>
