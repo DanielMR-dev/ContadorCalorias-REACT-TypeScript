@@ -27,7 +27,6 @@ export default function Form() {
         e.preventDefault() // Se previene la acción por default
 
         console.log('Submit...')
-
     }
 
     return (
