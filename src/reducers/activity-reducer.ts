@@ -44,15 +44,15 @@ export const activityReducer = (
 
     if(action.type === 'set-activeId') {
         return {
-            ...state,
-            activeId: action.payload.id
+            ...state,// Se genera una copia del state actual
+            activeId: action.payload.id // Setear el id activo usando el payload
         }
     }
 
     if(action.type === 'delete-activity') {
         return {
-            ...state,
-            activites: state.activities.filter(activity => activity.id !== action.payload.id)
+            ...state, // Se genera una copia del state actual
+            activites: state.activities.filter(activity => activity.id !== action.payload.id) // Usando el método filter retorna los "id" de las actividades distintas a la actividad a eliminar
         }
     }
 
