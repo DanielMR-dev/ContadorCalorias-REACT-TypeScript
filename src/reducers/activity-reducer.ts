@@ -1,4 +1,3 @@
-import { act } from "react"
 import { Activity } from "../types"
 
 // Type que describe que lo que va a pasar en reducer
@@ -12,8 +11,13 @@ export  type ActivityState = {
     activeId: Activity['id']
 }
 
+const localStorageActivities = () : Activity[] => {
+    const activities = localStorage.getItem('activities')
+    return activities ? JSON.parse(activities) : []
+}
+
 export const initialState : ActivityState = {
-    activities: [],
+    activities: localStorageActivities(),
     activeId: '' 
 }
 
@@ -52,7 +56,7 @@ export const activityReducer = (
     if(action.type === 'delete-activity') {
         return {
             ...state, // Se genera una copia del state actual
-            activites: state.activities.filter(activity => activity.id !== action.payload.id) // Usando el método filter retorna los "id" de las actividades distintas a la actividad a eliminar
+            activities: state.activities.filter(activity => activity.id !== action.payload.id) // Usando el método filter retorna los "id" de las actividades distintas a la actividad a eliminar
         }
     }
 
